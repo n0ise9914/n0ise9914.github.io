@@ -22,7 +22,7 @@ var skills = [
         "header": "Frameworks",
         "captions": [
             "ASP.NET MVC 5 ",
-            "ExpressJS   ",
+            "ExpressJS  ",
             "Spring",
             "Laravel",
             "Crow",
