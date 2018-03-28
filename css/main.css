@@ -142,15 +142,21 @@ textarea {
 .icon.social:hover {
     background: #262626;
     color: #6d6e71;
-    transition: 0.5s;
-    -moz-transition: 0.5s;
-    -webkit-transition: 0.5s;
-    -o-transition: 0.5s;
+    /*transition: 0.5s;*/
+    /*-moz-transition: 0.5s;*/
+    /*-webkit-transition: 0.5s;*/
+    /*-o-transition: 0.5s;*/
     -webkit-filter: drop-shadow(0 1px 10px rgba(0, 0, 0, .8));
     -moz-filter: drop-shadow(0 1px 10px rgba(0, 0, 0, .8));
     -ms-filter: drop-shadow(0 1px 10px rgba(0, 0, 0, .8));
     -o-filter: drop-shadow(0 1px 10px rgba(0, 0, 0, .8));
     filter: drop-shadow(0 1px 10px rgba(0, 0, 0, .8));
+}
+
+.icon.social:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
 }
 
 .icon.social.tg {
