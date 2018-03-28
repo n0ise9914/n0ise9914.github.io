@@ -161,7 +161,7 @@ textarea {
 }
 
 /*.icon.social.tg {*/
-    /*background-color: #0087be;*/
+/*background-color: #0087be;*/
 /*}*/
 
 .icon.social.tg i {
@@ -170,7 +170,7 @@ textarea {
 }
 
 /*.icon.social.tw {*/
-    /*background-color: dodgerblue;*/
+/*background-color: dodgerblue;*/
 /*}*/
 
 .icon.social.tw i {
@@ -178,7 +178,7 @@ textarea {
 }
 
 /*.icon.social.in {*/
-    /*background-color: #e40354;*/
+/*background-color: #e40354;*/
 /*}*/
 
 .icon.social.in i {
@@ -186,7 +186,7 @@ textarea {
 }
 
 /*.icon.social.gh {*/
-    /*background-color: #333333;*/
+/*background-color: #333333;*/
 /*}*/
 
 .icon.social.gh i {
@@ -219,6 +219,7 @@ body {
 }
 
 .skills {
+    margin-top: 6px;
     white-space: nowrap;
     font-size: 32px;
     font-weight: lighter;
