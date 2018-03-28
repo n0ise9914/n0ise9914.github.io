@@ -91,15 +91,16 @@ var skills = [
     {
         "header": "Hobbies",
         "captions": [
-            "Learning",
-            "Vainglory  ",
+            "Vainglory",
+            "Chess",
             "PenTest",
             "SkateBoarding",
-            "Chess  ",
+            "Learn",
+
         ],
         "values": [
-            0.85,
             0.75,
+            0.85,
             0.85,
             0.75,
             0.85,
