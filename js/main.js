@@ -21,18 +21,18 @@ var skills = [
     {
         "header": "Frameworks",
         "captions": [
-            "ASP.NET MVC 5 ",
+            "  ExpressJS",
             "Crow",
             "Spring",
             "Laravel",
-            "  ExpressJS",
+            "MVC5 ",
         ],
         "values": [
-            0.75,
+            0.65,
             0.55,
             0.85,
             0.85,
-            0.65,
+            0.75,
         ]
     },
     {
@@ -92,17 +92,17 @@ var skills = [
         "header": "Hobbies",
         "captions": [
             "Learning",
-            "Chess  ",
+            "Vainglory  ",
             "PenTest",
             "SkateBoarding",
-            "   Vainglory",
+            "Chess  ",
         ],
         "values": [
             0.85,
-            0.85,
+            0.75,
             0.85,
             0.75,
-            0.75
+            0.85,
         ]
     }
 ];
@@ -142,7 +142,7 @@ $(".pentagon").each(function (index) {
     let ctx = $(this).find('canvas')[0].getContext('2d');
     ctx.canvas.width = width;
     ctx.canvas.height = height;
-    ctx.font = "15px Monospace";
+    ctx.font = "16px Monospace";
     ctx.textAlign = "center";
 
     /*** LABEL ***/
@@ -150,7 +150,7 @@ $(".pentagon").each(function (index) {
     ctx.fillStyle = color;
     ctx.fillText(skills[pentagonIndex].header, width / 2, 15);
 
-    ctx.font = "13px Monospace";
+    ctx.font = "14px Monospace";
 
     /*** PENTAGON BACKGROUND ***/
     for (let i = 0; i < sides; i++) {

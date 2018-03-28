@@ -137,62 +137,71 @@ textarea {
     -moz-transition: 0.5s;
     -webkit-transition: 0.5s;
     -o-transition: 0.5s;
+    border: solid 1px transparent;
 }
 
 .icon.social:hover {
+    /*#262626*/
+    /*#32b9e7*/
     background: #262626;
-    color: #6d6e71;
+    color: #32b9e7;
     /*transition: 0.5s;*/
     /*-moz-transition: 0.5s;*/
     /*-webkit-transition: 0.5s;*/
     /*-o-transition: 0.5s;*/
-    -webkit-filter: drop-shadow(0 1px 10px rgba(0, 0, 0, .8));
-    -moz-filter: drop-shadow(0 1px 10px rgba(0, 0, 0, .8));
-    -ms-filter: drop-shadow(0 1px 10px rgba(0, 0, 0, .8));
-    -o-filter: drop-shadow(0 1px 10px rgba(0, 0, 0, .8));
-    filter: drop-shadow(0 1px 10px rgba(0, 0, 0, .8));
+    /*-webkit-filter: drop-shadow(0 1px 3px rgba(0, 0, 0, .8));*/
+    /*-moz-filter: drop-shadow(0 1px 3px rgba(0, 0, 0, .8));*/
+    /*-ms-filter: drop-shadow(0 1px 3px rgba(0, 0, 0, .8));*/
+    /*-o-filter: drop-shadow(0 1px 3px rgba(0, 0, 0, .8));*/
+    /*filter: drop-shadow(0 1px 3px rgba(0, 0, 0, .8));*/
 }
 
 .icon.social:active {
-    background-color: #3e8e41;
-    box-shadow: 0 5px #666;
-    transform: translateY(4px);
+    transform: translateY(1px);
 }
 
-.icon.social.tg {
-    background-color: #0087be;
-}
+/*.icon.social.tg {*/
+    /*background-color: #0087be;*/
+/*}*/
 
 .icon.social.tg i {
     left: 9px;
     top: 10px;
 }
 
-.icon.social.tw {
-    background-color: dodgerblue;
-}
+/*.icon.social.tw {*/
+    /*background-color: dodgerblue;*/
+/*}*/
 
 .icon.social.tw i {
     left: 11px;
 }
 
-.icon.social.in {
-    background-color: #e40354;
-}
+/*.icon.social.in {*/
+    /*background-color: #e40354;*/
+/*}*/
 
 .icon.social.in i {
     left: 12px;
 }
 
-.icon.social.gh {
-    background-color: #333333;
-}
+/*.icon.social.gh {*/
+    /*background-color: #333333;*/
+/*}*/
 
 .icon.social.gh i {
-    left: 11px;
+    left: 12px;
 }
 
-.top-element {
+.info-wrapper {
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
+    width: 100%;
+    height: 444px;
+    background-color: #454545;
+}
+
+.info {
     -webkit-clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
     clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
     width: 100%;
