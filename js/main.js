@@ -22,17 +22,17 @@ var skills = [
         "header": "Frameworks",
         "captions": [
             "ASP.NET MVC 5 ",
-            "Crow",
+            "ExpressJS   ",
             "Spring",
             "Laravel",
-            "   ExpressJS",
+            "Crow",
         ],
         "values": [
             0.75,
-            0.55,
-            0.85,
-            0.85,
             0.65,
+            0.85,
+            0.85,
+            0.55,
         ]
     },
     {
@@ -127,7 +127,7 @@ let hueOffset = 25;
 
 for (let s in skills) {
     $(".content").append('<div class="pentagon" id="interests"><div class="header"></div><canvas class="pentCanvas"/></div>');
-    iv = parseInt(5-s) -1;
+    iv = parseInt(5 - s) - 1;
     hue[s] = (hueOffset + iv * 255 / skills.length) % 255;
 }
 
