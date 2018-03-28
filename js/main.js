@@ -4,7 +4,7 @@ var skills = [
         "captions": [
             "C#",
             "JS",
-            "Kotlin",
+            "Kotlin ",
             "Java",
             "PHP",
             "Lua"
@@ -25,7 +25,7 @@ var skills = [
             "Crow",
             "Spring",
             "Laravel",
-            "MVC5 ",
+            " MVC5 ",
         ],
         "values": [
             0.65,
@@ -61,7 +61,7 @@ var skills = [
             "Redis",
             "MongoDB",
             "Neo4J",
-            "MySQL"
+            " MySQL"
         ],
         "values": [
             0.55,
@@ -95,7 +95,7 @@ var skills = [
             "Chess",
             "PenTest",
             "SkateBoarding",
-            "Learn",
+            " Learn",
 
         ],
         "values": [
