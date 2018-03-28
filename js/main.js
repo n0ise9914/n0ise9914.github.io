@@ -91,7 +91,7 @@ var skills = [
     {
         "header": "Hobbies",
         "captions": [
-            "Politics",
+            "Learning",
             "Chess  ",
             "PenTest",
             "SkateBoarding",
