@@ -98,6 +98,13 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+.keywords{
+    position: fixed;
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
 .socials {
     margin: 50px auto;
     width: 190px;
