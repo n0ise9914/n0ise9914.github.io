@@ -99,10 +99,12 @@ textarea {
    ========================================================================== */
 
 .keywords{
-    position: fixed;
-    text-indent: 100%;
-    white-space: nowrap;
-    overflow: hidden;
+    margin-left: 12px;
+    color: #222222;
+    /*position: fixed;*/
+    /*text-indent: 100%;*/
+    /*white-space: nowrap;*/
+    /*overflow: hidden;*/
 }
 
 .socials {
