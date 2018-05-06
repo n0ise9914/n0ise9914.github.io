@@ -98,14 +98,11 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-/*.keywords{*/
-    /*margin-left: 12px;*/
-    /*color: #222222;*/
-    /*position: fixed;*/
-    /*text-indent: 100%;*/
-    /*white-space: nowrap;*/
-    /*overflow: hidden;*/
-/*}*/
+.keywords{
+    font-size: 10px;
+    margin-left: 12px;
+    color: #ffffff;
+}
 
 .socials {
     margin: 50px auto;
