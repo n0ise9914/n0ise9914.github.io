@@ -98,6 +98,12 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+.keywords{
+    font-size: 10px;
+    margin-left: 12px;
+    color: #ffffff;
+}
+
 .socials {
     margin: 50px auto;
     width: 190px;
