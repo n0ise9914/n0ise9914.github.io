@@ -21,24 +21,19 @@ var skills = [
     {
         "header": "Frameworks",
         "captions": [
-            "  ExpressJS",
             "Crow",
-            "Spring",
-            "Laravel",
-            " MVC5 ",
+            "Spring  ",
+            "   Laravel",
         ],
         "values": [
-            0.65,
             0.55,
             0.85,
             0.85,
-            0.75,
         ]
     },
     {
         "header": "Android",
         "captions": [
-            "MVC",
             "Dagger",
             "Realm",
             "Retrofit",
@@ -46,7 +41,6 @@ var skills = [
             "Litho"
         ],
         "values": [
-            0.85,
             0.75,
             0.85,
             0.85,
@@ -57,17 +51,15 @@ var skills = [
     {
         "header": "Databases",
         "captions": [
-            "Elastic",
             "Redis",
-            "MongoDB",
+            "MongoDB  ",
             "Neo4J",
             " MySQL"
         ],
         "values": [
-            0.55,
             0.85,
-            0.85,
-            0.75,
+            0.65,
+            0.65,
             0.85
         ]
     },
